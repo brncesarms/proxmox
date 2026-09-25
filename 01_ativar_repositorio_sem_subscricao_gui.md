@@ -1,9 +1,15 @@
 ---
 title: "Proxmox VE: Ativar Repositório Gratuito (No-Subscription) pela Interface Web"
 date_created: 2026-08-22
+last_modified: 2026-09-25
+author: "Bruno César"
+privacy: public
 tags:
-  - proxmox/repositorios
-  - proxmox/atualizacao
+  - publico
+  - proxmox
+  - repositorios
+  - atualizacao
+  - debian
 ---
 
 # 🌐 Proxmox VE: Ativar o Repositório Gratuito (No-Subscription) pela Interface Web
@@ -88,7 +94,8 @@ Após alterar as fontes, você precisa atualizar as listas locais do gerenciador
 > [!note] Guia elaborado com base nas melhores práticas da documentação oficial do Proxmox VE.
 
 ## 🔗 Notas Relacionadas
-- 🌐 [Proxmox: Ollama via SSH](./ollama--guia-acesso-ssh.md) — Acessar o Ollama no Proxmox via terminal
-- 🌐 [Proxmox: SyncThing](./ollama--guia-instalacao-syncthing.md) — Sincronizar o cofre com o container LXC
-- 🐧 [Linux: Atualizar Pacotes](../linux/1-atualizar-pacotes.md) — Comandos apt/dnf
-- 🎓 [T.I. — Mapa de Conteúdo](../README.md) — Índice geral
+- [Pós-Instalação, Tweaks de Performance e Remoção de Nag](03_pos_instalacao_pve_tweaks_e_nag_removal.md) — Saneamento de repositórios via linha de comando e remoção do alerta modal.
+- [Criação e Otimização de VM Windows 11 no Proxmox](02_criacao_vm_windows11_otimizada.md) — Configuração de hardware virtual de alta performance (VirtIO/NVMe).
+- [Backup, Snapshots e Estratégia de Storage](04_backup_snapshots_e_storage_zfs_lvm.md) — Políticas de backup com vzdump/PBS e governança ZFS.
+- [Guia Principal do Proxmox VE](README.md) — Índice geral de runbooks e virtualização corporativa.
+- [Linux: Atualização de Pacotes](../linux/01_atualizar_pacotes.md) — Gerenciamento de repositórios e rotinas apt/dnf/pacman.

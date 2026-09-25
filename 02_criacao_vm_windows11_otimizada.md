@@ -168,3 +168,15 @@ qm snapshot 101 snap-pre-update --vmstate 1
 # Execução manual de TRIM para liberar espaço em disco:
 qm guest cmd 101 fstrim
 ```
+
+---
+
+## 🔗 Notas Relacionadas
+- [Ativação de Repositório No-Subscription](01_ativar_repositorio_sem_subscricao_gui.md) — Configuração de repositórios comunitários no Proxmox VE.
+- [Pós-Instalação, Tweaks de Performance e Remoção de Nag](03_pos_instalacao_pve_tweaks_e_nag_removal.md) — Configuração de CPU governor e saneamento do host PVE.
+- [Backup, Snapshots e Estratégia de Storage](04_backup_snapshots_e_storage_zfs_lvm.md) — Retenção com vzdump e quiescing com QEMU Guest Agent.
+- [Guia Principal do Proxmox VE](README.md) — Índice de virtualização corporativa e infraestrutura.
+- [Windows: Otimização e Debloat](../windows/19_win11debloat.md) — Scripts de telemetria e ajustes de sistema para Windows 11.
+- [Windows: Automação via WinGet](../windows/17_winget.md) — Provisionamento automatizado de softwares pós-instalação.
+- [Linux: Virtualização KVM/QEMU](../linux/05_virtualizacao_virt_manager.md) — Virtualização local com Virt-Manager e módulos KVM.
+
