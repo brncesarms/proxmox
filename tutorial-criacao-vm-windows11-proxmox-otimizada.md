@@ -1,7 +1,7 @@
 ---
 title: "Guia Definitivo: Criação e Otimização Extrema de VM Windows 11 no Proxmox VE"
 date: "2026-09-25"
-author: "Bruno César / Antigravity"
+author: "Bruno César"
 privacy: public
 status: active
 tags:
