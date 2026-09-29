@@ -76,6 +76,7 @@ Notas atômicas estruturadas no formato Zettelkasten com autoria pessoal, tags c
 | 02 | [🚀 Criação & Otimização Extrema de VM Windows 11](./02_criacao_vm_windows11_otimizada.md) | Blueprint completo: VirtIO SCSI Single, IOThread, Discard/TRIM, vTPM 2.0, CPU Host, QEMU Guest Agent e debloat. |
 | 03 | [⚡ Pós-Instalação, Tweaks de Performance e Remoção de Nag](./03_pos_instalacao_pve_tweaks_e_nag_removal.md) | Configuração via terminal das listas APT, tuning de CPU governor (`performance`), headers de kernel e remoção limpa do popup modal. |
 | 04 | [🛡️ Backup, Snapshots e Estratégia de Storage (ZFS vs LVM-Thin)](./04_backup_snapshots_e_storage_zfs_lvm.md) | Retenção com `vzdump`, quiescing de arquivos com Guest Agent (VSS/fsfreeze), integração com PBS e comparativo de storage. |
+| 05 | [🚀 Servidor de Boot PXE com netboot.xyz e MikroTik RouterOS v7](./05_netboot_xyz_pxe_boot_network.md) | Implantação do netboot.xyz em LXC no Proxmox VE, servidor DHCP no MikroTik RouterOS v7 e boot de distros Linux sem pendrive. |
 
 ---
 
